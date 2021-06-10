@@ -7,17 +7,18 @@
 	管理者：增加新书，删除已有图书，浏览全部
 	使用者：借阅图书，归还图书，浏览全部 
 -	类设计
-	account类——记录使用者账户
+* account类——记录使用者账户
 账户id
 recordMap记录该账户借还记录
-	Date类——记录借还书的时间
+* Date类——记录借还书的时间
 年 月 日
-	Book类——书籍信息
+* Book类——书籍信息
 图书名 作者 ISBN 价格  数目
-	schedule类 ——修改库存书籍数目
+* schedule类 ——修改库存书籍数目
 增加或减少Book对象的数目
 -	UML图
   
+![image](https://github.com/Liaukx/C-/blob/main/image/%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E7%B1%BB%E8%AE%BE%E8%AE%A1.jpg)
  
 具体实现见代码
 -	效果呈现:
